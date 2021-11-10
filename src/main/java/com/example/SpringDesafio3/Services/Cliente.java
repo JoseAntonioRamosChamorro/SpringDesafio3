@@ -40,7 +40,7 @@ public class Cliente {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-	@Column(name = "FECHA_VIGENCIA")
+	@Column(name = "FECHA_NACIMIENTO")
 	public Date getFechaNacimiento() {
 		return fechaNacimiento;
 	}
